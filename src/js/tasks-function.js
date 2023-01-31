@@ -1,7 +1,7 @@
 import Tasks from './tasks.js';
 import TaskStatus from './taskStatus.js';
 
-class Todolist {
+class TodolistFunctions {
   constructor() {
     this.taskData = [];
   }
@@ -128,7 +128,7 @@ class Todolist {
 
 // Add New Task and Display it
 const completed = false;
-const entryTask = new Todolist();
+const entryTask = new TodolistFunctions();
 let index = 1;
 
 const newItemInput = document.querySelector('#new-item');
